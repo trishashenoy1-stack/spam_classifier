@@ -1,20 +1,24 @@
-# spam_classifier
+# Email Spam Classifier
 Predicts whether a mail is spam or not 
 
-# pipeline
-words converted to vectors
+# Pipeline
+- Words --> vectors
 
-bidirectional lstm
+- Tokenization and lemming using nltk
 
-mail classified into one of 2 categories
+- Bayes score calculated for text
 
-# tech stack
-numpy
+- Bidirectional lstm
 
-pytorch
+- Mail classified into one of 2 categories
 
-pytorch_lightning
+# Tech Stack
+- NumPy
 
-nltk
+- PyTorch
 
-scikit
+- PyTorch_Lightning
+
+- NLTK
+
+- SciKit
